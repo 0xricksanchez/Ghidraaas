@@ -8,7 +8,7 @@
 -if [ "${MAXMEM}" != "" ]; then
 -	VMARG_LIST+=" -Xmx${MAXMEM}"
 -fi
-+VMARG_LIST+=" -XX:InitialRAMPercentage=20 -XX:MinRAMPercentage=20 -XX:MaxRAMPercentage=80"
++VMARG_LIST+=" -XX:InitialRAMPercentage=30 -XX:MinRAMPercentage=20 -XX:MaxRAMPercentage=80"
  
  BACKGROUND=false
  
